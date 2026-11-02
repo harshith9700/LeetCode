@@ -11,9 +11,7 @@ class Solution {
 
         List<String> l = new ArrayList<>();
 
-        if (digits.length() == 0) {
-            return l;
-        }
+        
 
         backtrac(0, l, digits, "", s);
 
